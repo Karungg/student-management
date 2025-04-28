@@ -28,7 +28,7 @@ public class StudentService {
         return studentRepository.save(student);
     }
 
-    public Student updaStudent(UUID id, Student studentDetails) {
+    public Student updateStudent(UUID id, Student studentDetails) {
         if (studentRepository.existsById(id)) {
             studentDetails.setId(id);
             return studentRepository.save(studentDetails);
