@@ -1,4 +1,4 @@
-package com.student.services;
+package com.student.backend.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.student.model.Student;
-import com.student.repository.StudentRepository;
+import com.student.backend.model.Student;
+import com.student.backend.repository.StudentRepository;
 
 @Service
 public class StudentService {
