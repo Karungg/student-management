@@ -6,7 +6,7 @@ const StudentList = () => {
   const [students, setStudents] = useState([]);
 
   const fetchStudents = async () => {
-    const response = await api.get("/");
+    const response = await api.get("");
     setStudents(response.data);
   };
 

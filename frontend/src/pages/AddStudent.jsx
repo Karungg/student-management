@@ -7,7 +7,7 @@ const AddStudent = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (data) => {
-    api.post("/", data).then(() => navigate("/"));
+    api.post("", data).then(() => navigate(""));
   };
 
   return <StudentForm onSubmit={handleSubmit} />;
